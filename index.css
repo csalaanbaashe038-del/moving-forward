@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, gray,purple);
+    padding: 12px;
+}
+.logo{
+    padding: 8px;
+    font-size: 20px;
+    color: #fff;
+}
+nav a{
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+.center {
+    background-color: rgb(255, 246, 0);
+    border-radius: 15px;
+    color: #fff;
+}
+.nav a:hover{
+    color: black;
+}
+.optic{
+    background-image: linear-gradient(to left, gray,purple);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+} 
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    padding: 8px;
+    margin: 14px;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.features{
+    text-align: center;
+    background-color: #E5E7EB;
+    color: #000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.features p{
+    padding: 8px;
+}
+.features b{
+    margin-left: 30rem;
+}
+.footer{
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+}
